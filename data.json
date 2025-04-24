@@ -1,0 +1,130 @@
+[
+{
+"id": "idea_001",
+"type": "startup_idea",
+"title": "Mental Wellness App for Gen Z",
+"summary": "A mobile-first mental wellness app focused on Gen Z users. Includes mood tracking, daily check-ins, anonymous chat with certified coaches, and community features. Validated by demand for mental health support and increased Gen Z mobile usage.",
+"tags": ["mental health", "Gen Z", "mobile app", "startup idea"],
+"content": "Mental Wellness App for Gen Z: A mobile-first mental wellness app focused on Gen Z users. Includes mood tracking, daily check-ins, anonymous chat with certified coaches, and community features. Validated by demand for mental health support and increased Gen Z mobile usage."
+},
+{
+"id": "mvp_001",
+"type": "mvp_guidance",
+"title": "How to build an MVP",
+"summary": "An MVP should only include the core functionality that solves the user's main pain point. For example, if you're building a task app, start with: 1) login, 2) task creation and tracking, 3) basic notifications. Avoid building features like integrations, analytics, or user settings until validation.",
+"tags": ["MVP", "early stage", "lean startup"],
+"content": "How to build an MVP: An MVP should only include the core functionality that solves the user's main pain point. For example, if you're building a task app, start with: 1) login, 2) task creation and tracking, 3) basic notifications. Avoid building features like integrations, analytics, or user settings until validation."
+},
+{
+"id": "validation_001",
+"type": "validation",
+"title": "Early validation strategy",
+"summary": "Before building, validate by talking to 10-15 potential users. Ask about their pain points, how they currently solve the problem, and whether your solution resonates. Use surveys, calls, and mockups to gather feedback. This reduces risk before coding anything.",
+"tags": ["validation", "user research", "early stage"],
+"content": "Early validation strategy: Before building, validate by talking to 10-15 potential users. Ask about their pain points, how they currently solve the problem, and whether your solution resonates. Use surveys, calls, and mockups to gather feedback. This reduces risk before coding anything."
+},
+{
+"id": "email_001",
+"type": "communication",
+"title": "Investor outreach email (pre-seed)",
+"summary": "Hi [Investor Name], I'm building [Startup Name], which solves [Problem] for [Audience]. We’ve validated the idea with [early users/data]. I’d love to share more — would you be open to a 15-min call this week? Thanks! [Your Name]",
+"tags": ["investor email", "pre-seed", "communication"],
+"content": "Investor outreach email (pre-seed): Hi [Investor Name], I'm building [Startup Name], which solves [Problem] for [Audience]. We’ve validated the idea with [early users/data]. I’d love to share more — would you be open to a 15-min call this week? Thanks! [Your Name]"
+},
+{
+"id": "pitchdeck_001",
+"type": "pitch_content",
+"title": "Standard pitch deck outline",
+"summary": "A strong pre-seed pitch deck includes: 1) Problem, 2) Solution, 3) Market size, 4) Product demo, 5) Traction (if any), 6) Business model, 7) Team, 8) Vision, 9) Ask (funding). Keep slides simple and focused.",
+"tags": ["pitch deck", "fundraising", "pre-seed"],
+"content": "Standard pitch deck outline: A strong pre-seed pitch deck includes: 1) Problem, 2) Solution, 3) Market size, 4) Product demo, 5) Traction (if any), 6) Business model, 7) Team, 8) Vision, 9) Ask (funding). Keep slides simple and focused."
+},
+{
+"id": "ai_usage_001",
+"type": "ai_guidance",
+"title": "Using AI to accelerate your startup",
+"summary": "You can use AI to save time and enhance your startup. Examples: generate personalized emails with GPT, summarize user interviews, build MVP features (e.g., chatbots or content generation), or automate competitive analysis using RAG pipelines.",
+"tags": ["AI", "startup tools", "GPT", "automation"],
+"content": "Using AI to accelerate your startup: You can use AI to save time and enhance your startup. Examples: generate personalized emails with GPT, summarize user interviews, build MVP features (e.g., chatbots or content generation), or automate competitive analysis using RAG pipelines."
+},
+{
+"id": "launch_001",
+"type": "go_to_market",
+"title": "Early-stage go-to-market strategy",
+"summary": "For early-stage founders, start with a narrow niche. Define a single ideal user profile (e.g., freelance designers in LATAM), and find where they hang out (Reddit, Slack, communities). Offer free trials, schedule 1:1s, and collect real feedback. Focus on conversations, not scale.",
+"tags": ["launch", "go to market", "early adopters", "strategy"],
+"content": "Early-stage go-to-market strategy: For early-stage founders, start with a narrow niche. Define a single ideal user profile (e.g., freelance designers in LATAM), and find where they hang out (Reddit, Slack, communities). Offer free trials, schedule 1:1s, and collect real feedback. Focus on conversations, not scale."
+},
+{
+"id": "pricing_001",
+"type": "monetization",
+"title": "Simple pricing model for MVPs",
+"summary": "A good MVP pricing strategy is to start with one clear offer. For example: $9/month with a 7-day free trial. Avoid complex tiers. This helps you validate willingness to pay and measure conversion without confusion. Pricing can be adjusted later.",
+"tags": ["pricing", "MVP", "monetization", "SaaS"],
+"content": "Simple pricing model for MVPs: A good MVP pricing strategy is to start with one clear offer. For example: $9/month with a 7-day free trial. Avoid complex tiers. This helps you validate willingness to pay and measure conversion without confusion. Pricing can be adjusted later."
+},
+{
+"id": "community_001",
+"type": "growth",
+"title": "Using community for early traction",
+"summary": "Engage in small, relevant communities where your users already exist (Discord, Indie Hackers, niche Slack groups). Don't pitch right away — ask questions, share progress, and give value first. People will naturally check out your product. This builds organic trust and early users.",
+"tags": ["growth", "community", "early traction"],
+"content": "Using community for early traction: Engage in small, relevant communities where your users already exist (Discord, Indie Hackers, niche Slack groups). Don't pitch right away — ask questions, share progress, and give value first. People will naturally check out your product. This builds organic trust and early users."
+},
+{
+"id": "founder_001",
+"type": "mindset",
+"title": "Founder mindset for early execution",
+"summary": "In the earliest days, execution speed > perfection. Focus on building fast, talking to users, and launching something even if it’s ugly. Most startups die from indecision, not bad code. Think in experiments, not features. Default to action.",
+"tags": ["mindset", "founder", "execution", "early stage"],
+"content": "Founder mindset for early execution: In the earliest days, execution speed > perfection. Focus on building fast, talking to users, and launching something even if it’s ugly. Most startups die from indecision, not bad code. Think in experiments, not features. Default to action."
+},
+{
+"id": "no_code_001",
+"type": "tools",
+"title": "Building MVPs with no-code",
+"summary": "Use no-code tools like Bubble, Webflow, or Glide to quickly test your idea. Connect with Zapier or Make.com for automation. Great for validating demand without writing a single line of code. Save dev time and focus on user learning.",
+"tags": ["no-code", "tools", "validation", "MVP"],
+"content": "Building MVPs with no-code: Use no-code tools like Bubble, Webflow, or Glide to quickly test your idea. Connect with Zapier or Make.com for automation. Great for validating demand without writing a single line of code. Save dev time and focus on user learning."
+},
+{
+"id": "metrics_001",
+"type": "kpi_guidance",
+"title": "Key metrics for early-stage startups",
+"summary": "In the first months, track metrics that indicate user value and behavior. Prioritize: 1) Activation (how many users reach the core value), 2) Retention (do they come back?), 3) Referral (are they telling others?). Don't over-index on vanity metrics like social followers.",
+"tags": ["metrics", "early stage", "activation", "retention"],
+"content": "Key metrics for early-stage startups: In the first months, track metrics that indicate user value and behavior. Prioritize: 1) Activation (how many users reach the core value), 2) Retention (do they come back?), 3) Referral (are they telling others?). Don't over-index on vanity metrics like social followers."
+},
+{
+"id": "fundraising_002",
+"type": "fundraising",
+"title": "Fundraising at pre-seed: what matters",
+"summary": "At the pre-seed stage, investors bet on: 1) The team, 2) Clarity of the problem, 3) Signs of user interest, and 4) Your ability to ship. Traction can be user interviews, landing pages with emails, or prototypes — not necessarily revenue.",
+"tags": ["fundraising", "pre-seed", "traction", "investment"],
+"content": "Fundraising at pre-seed: what matters: At the pre-seed stage, investors bet on: 1) The team, 2) Clarity of the problem, 3) Signs of user interest, and 4) Your ability to ship. Traction can be user interviews, landing pages with emails, or prototypes — not necessarily revenue."
+},
+{
+"id": "storytelling_001",
+"type": "communication",
+"title": "Startup storytelling framework",
+"summary": "To pitch your startup well, use this flow: 1) Start with the problem — make it real and emotional. 2) Explain your unique insight. 3) Show your solution and why it’s 10x better. 4) Share a story about a user or personal connection to the problem. Stories beat slides.",
+"tags": ["storytelling", "pitch", "communication"],
+"content": "Startup storytelling framework: To pitch your startup well, use this flow: 1) Start with the problem — make it real and emotional. 2) Explain your unique insight. 3) Show your solution and why it’s 10x better. 4) Share a story about a user or personal connection to the problem. Stories beat slides."
+},
+{
+"id": "onboarding_001",
+"type": "product",
+"title": "Designing onboarding for MVP users",
+"summary": "First-time user experience (FTUX) is critical. Use simple onboarding flows — 1) Welcome message, 2) Product tour or CTA, 3) First action completed. Keep friction low. Avoid asking for account creation before showing value.",
+"tags": ["UX", "onboarding", "MVP", "first-time user"],
+"content": "Designing onboarding for MVP users: First-time user experience (FTUX) is critical. Use simple onboarding flows — 1) Welcome message, 2) Product tour or CTA, 3) First action completed. Keep friction low. Avoid asking for account creation before showing value."
+},
+{
+"id": "mistakes_001",
+"type": "founder_mistakes",
+"title": "Common early-stage founder mistakes",
+"summary": "Top mistakes: 1) Building without validation, 2) Focusing too much on features, 3) Ignoring user feedback, 4) Waiting too long to launch, 5) Over-optimizing pitch decks. Progress comes from talking to users, shipping fast, and learning.",
+"tags": ["mistakes", "founders", "execution", "validation"],
+"content": "Common early-stage founder mistakes: Top mistakes: 1) Building without validation, 2) Focusing too much on features, 3) Ignoring user feedback, 4) Waiting too long to launch, 5) Over-optimizing pitch decks. Progress comes from talking to users, shipping fast, and learning."
+}
+]
