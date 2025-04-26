@@ -26,6 +26,15 @@
       .sidebar h2 {
         margin-bottom: 30px;
         font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .sidebar img.profile-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
       }
 
       .sidebar a {
@@ -38,14 +47,15 @@
         gap: 10px;
       }
 
-      .sidebar img {
-        width: 30px;
-        height: 30px;
-        border-radius: 100%;
-      }
-
       .sidebar a:hover {
         text-decoration: underline;
+      }
+
+      .logout {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        gap: 10px;
       }
 
       .main {
@@ -92,6 +102,78 @@
         margin-top: 25px;
       }
 
+      .input-area {
+        background: white;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+        position: relative;
+        gap: 8px;
+      }
+
+      .input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .input-wrapper textarea {
+        flex: 1;
+        padding: 10px 50px 10px 10px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        background: transparent;
+        resize: none;
+        height: 40px;
+      }
+
+      .send-button {
+        position: absolute;
+        right: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+      }
+
+      .send-button:hover {
+        background-color: #555;
+      }
+
+      .quick-actions {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+      }
+
+      .quick-actions .button {
+        background-color: #3498db;
+        border: none;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        cursor: pointer;
+      }
+
+      .quick-actions .button:hover {
+        background-color: #2980b9;
+      }
+
       .bottom-section {
         display: flex;
         gap: 20px;
@@ -105,40 +187,27 @@
         border-radius: 12px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-
-      .actions {
-        margin-top: 10px;
-      }
-
-      .button {
-        background-color: #3498db;
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
-        cursor: pointer;
-        margin-right: 10px;
-        font-size: 1rem;
-      }
-
-      .button:hover {
-        background-color: #2980b9;
-      }
     </style>
   </head>
+
   <body>
     <div class="sidebar">
-      <h2>XIA</h2>
-      <a href="#logout">Logout<img src="ourense.png" alt="ourense-soccer-team"></a>
+      <h2>
+        XIA <img src="profile.png" alt="User Profile" class="profile-icon" />
+      </h2>
       <a href="#chat">Chat</a>
       <a href="#tasks">Tasks</a>
       <a href="#documents">Documents</a>
       <a href="#summary">Daily Summary</a>
+      <div class="logout">
+        <a href="#logout">Logout</a>
+      </div>
     </div>
 
     <div class="main">
       <div class="chat" id="chat">
         <h2>Chat</h2>
+
         <div class="message sara">
           <strong>Sara:</strong> I want to launch an app that promotes
           sustainable shopping. Can you help me organize what I need to do?
@@ -156,10 +225,16 @@
           </ul>
         </div>
 
-        <div class="actions">
-          <button class="button">Generate Plan</button>
-          <button class="button">Create Email</button>
-          <button class="button">Summarize Competition</button>
+        <div class="input-area">
+          <div class="input-wrapper">
+            <textarea placeholder="Type your message..."></textarea>
+            <button class="send-button">&#9658;</button>
+          </div>
+          <div class="quick-actions">
+            <button class="button">Generate Plan</button>
+            <button class="button">Create Email</button>
+            <button class="button">Summarize Competition</button>
+          </div>
         </div>
       </div>
 
@@ -172,6 +247,7 @@
             <li>Design Landing Page</li>
           </ul>
         </div>
+
         <div class="card" id="documents">
           <h3>Generated Documents</h3>
           <ul>
@@ -180,6 +256,7 @@
             <li>Competitor Summary</li>
           </ul>
         </div>
+
         <div class="card" id="summary">
           <h3>Daily Summary</h3>
           <p>You have 5 pending tasks</p>
