@@ -33,6 +33,15 @@
         color: white;
         font-weight: bold;
         font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .sidebar img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
       }
 
       .sidebar a:hover {
@@ -59,6 +68,10 @@
         gap: 15px;
       }
 
+      .chat h2 {
+        text-align: center;
+      }
+
       .message {
         max-width: 70%;
         padding: 10px 15px;
@@ -70,11 +83,13 @@
       .sara {
         align-self: flex-end;
         background-color: #e0e0e0;
+        margin-top: 25px;
       }
 
       .xia {
         align-self: flex-start;
         background-color: #d1e8ff;
+        margin-top: 25px;
       }
 
       .bottom-section {
@@ -114,6 +129,7 @@
   <body>
     <div class="sidebar">
       <h2>XIA</h2>
+      <a href="#logout">Logout<img src="ourense.png" alt="ourense-soccer-team"></a>
       <a href="#chat">Chat</a>
       <a href="#tasks">Tasks</a>
       <a href="#documents">Documents</a>
@@ -122,8 +138,7 @@
 
     <div class="main">
       <div class="chat" id="chat">
-        <h2>Chat with XIA</h2>
-
+        <h2>Chat</h2>
         <div class="message sara">
           <strong>Sara:</strong> I want to launch an app that promotes
           sustainable shopping. Can you help me organize what I need to do?
@@ -167,7 +182,7 @@
         </div>
         <div class="card" id="summary">
           <h3>Daily Summary</h3>
-          <p>5 pending tasks</p>
+          <p>You have 5 pending tasks</p>
           <p>Focus: Finalize Product Description</p>
         </div>
       </div>
