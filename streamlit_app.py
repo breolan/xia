@@ -54,7 +54,7 @@ with col1:
 with col2:
     st.subheader("Generated Documents")
     st.info(" Product Plan Draft")
-    st.info("✉ Email to Investors")
+    st.info(" Email to Investors")
     st.info(" Competitor Summary")
 
 with col3:
